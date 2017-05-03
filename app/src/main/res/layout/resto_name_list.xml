@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:text="@string/available_restaurant"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:id="@+id/resto_name"
+        android:textStyle="normal|bold"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/holo_orange_dark" />
+
+    <TextView
+        android:text="@string/restaurant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/restoNameTextView"
+        tools:ignore="RelativeOverlap"
+        android:textStyle="normal|bold"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginEnd="28dp"
+        android:layout_alignTop="@+id/restoImageView"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        app:srcCompat="@drawable/placeholder"
+        android:id="@+id/restoImageView"
+        android:layout_marginTop="64dp"
+        android:layout_below="@+id/resto_name"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="22dp" />
+
+    <Button
+        android:text="View Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/restoImageView"
+        android:layout_alignStart="@+id/restoNameTextView"
+        android:id="@+id/menuButton"
+        android:onClick="showMenu"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:text="@string/back"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/backButton"
+        android:background="@android:color/white"
+        android:textColor="@android:color/holo_green_dark"
+        android:onClick="goBack"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18sp"
+        android:textAlignment="viewStart"
+        android:layout_above="@+id/restoImageView" />
+
+</RelativeLayout>

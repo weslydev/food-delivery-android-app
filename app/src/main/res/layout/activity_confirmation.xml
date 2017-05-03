@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_confirmation"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.nova.wd245.rapid.ConfirmationActivity">
+
+
+    <TextView
+        android:text="@string/your_payment_confirmation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:id="@+id/textView2"
+        android:textSize="18sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/dot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:id="@+id/textView5"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_amount"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/paymentAmount"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/status"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/paymentStatus"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/payment_id"
+                android:textColor="@color/colorPrimaryDark" />
+
+            <TextView
+                android:id="@+id/paymentId"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </TableRow>
+
+
+    </TableLayout>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/phoneEditText"
+        android:hint="@string/phone"
+        android:layout_alignTop="@+id/addressEditText"
+        android:layout_alignStart="@+id/addressEditText"
+        android:layout_marginTop="54dp"
+        android:textStyle="normal|italic"
+        android:layout_alignEnd="@+id/addressEditText" />
+
+    <TextView
+        android:text="@string/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dateTextView"
+        android:layout_alignBottom="@+id/textView10"
+        android:layout_alignEnd="@+id/submitButton"
+        android:layout_alignTop="@+id/textView10"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:text="@string/transaction_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="54dp"
+        android:id="@+id/textView10"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/textView5"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="@string/dot_string"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView15"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/textView5"
+        android:textColor="@color/colorPrimaryDark" />
+
+    <TextView
+        android:text="@string/delivery_info_for_your_food"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:id="@+id/deliveryInfoTextView"
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:textAllCaps="false"
+        android:layout_below="@+id/textView15"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPostalAddress"
+        android:ems="10"
+        android:id="@+id/addressEditText"
+        android:hint="@string/delivery_address"
+        android:layout_marginTop="23dp"
+        android:textStyle="normal|italic"
+        android:layout_below="@+id/deliveryInfoTextView"
+        android:layout_alignEnd="@+id/deliveryInfoTextView"
+        android:layout_alignStart="@+id/textView15" />
+
+    <Button
+        android:text="@string/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/submitButton"
+        android:layout_below="@+id/phoneEditText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:onClick="submitDelInfo"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="edu.nova.wd245.rapid.LoginActivity"
+    android:background="@drawable/rapidbgr">
+
+    <TextView
+        android:text="@string/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView"
+        android:textSize="30sp"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/passEditText1"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password"
+        android:layout_below="@+id/emailEditText1"
+        android:layout_alignParentStart="true"
+        android:background="?android:attr/colorControlHighlight" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:layout_marginTop="57dp"
+        android:id="@+id/emailEditText1"
+        android:hint="@string/emailLogin"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:cursorVisible="true"
+        android:background="?android:attr/colorControlHighlight"
+        android:textAlignment="viewStart" />
+
+    <Button
+        android:text="@string/loginButon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton1"
+        android:onClick="login"
+        android:layout_below="@+id/passEditText1"
+        android:layout_marginTop="62dp"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/black"
+        android:layout_alignParentEnd="true"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="@string/login_facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/facebookButton"
+        android:onClick="facebookLogin"
+        android:layout_below="@+id/loginButton1"
+        android:layout_marginTop="23dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/black"
+        android:textColor="@android:color/holo_orange_dark"
+        android:textStyle="normal|bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/registerButton"
+        android:onClick="register"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/holo_orange_dark" />
+
+    <Button
+        android:text="@string/reset_pwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:layout_alignBaseline="@+id/registerButton"
+        android:layout_alignBottom="@+id/registerButton"
+        android:layout_alignParentEnd="true"
+        android:onClick="resetPassword"
+        tools:ignore="RelativeOverlap"
+        android:textStyle="normal|bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_toEndOf="@+id/textView" />
+
+</RelativeLayout>

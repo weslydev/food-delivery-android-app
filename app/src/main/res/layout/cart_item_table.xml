@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="259dp">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="263dp"
+        android:id="@+id/tableLayout">
+
+        <TableRow
+            android:background="@android:color/darker_gray"
+            android:padding="5dp"
+            android:textAlignment="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ITEM"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRICE IN $"
+                android:textColor="@android:color/white"
+                android:textStyle="normal|bold" />
+        </TableRow>
+
+
+    </TableLayout>
+
+</ScrollView>
+
+    <TextView
+        android:text="Your Summary "
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/textView3"
+        android:textSize="18dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="normal|bold"
+        android:textAlignment="viewStart" />
+
+    <TextView
+        android:text="Order total cost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/orderPriceTextView"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_green_dark" />
+    <TextView
+        android:text="Shipping "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:id="@+id/shippingPriceTextView"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_green_dark" />
+    <TextView
+        android:text="Total Amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/amountPriceTextView"
+        android:textSize="18dp"
+        android:textColor="@android:color/holo_red_dark" />
+
+    <Button
+        android:text="Pay Now"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:id="@+id/payButton"
+        android:onClick="payNow"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

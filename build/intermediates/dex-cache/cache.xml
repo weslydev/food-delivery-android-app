@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/io.card/android-sdk/5.3.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="28bc7007cc5fb935b0737a42f05b8286936228b0">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.card-android-sdk-5.3.4_eab7d97c8e8428ef299b9f92cfdaa3eeb41430d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-24.2.1_a12cdac31d80fe33b80110571cceb24132ca4959/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a900a80b299d63bd985812c6d30d35c04a0dbbb4">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_cac7c042f07754d89d12031b1e223ceff7d9e662/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.paypal.sdk/paypal-android-sdk/2.14.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="da47b5635353ca55aabc9e1ad6aaaa5626fedcb4">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.paypal.sdk-paypal-android-sdk-2.14.2_67aba6b8bac4442a0e3638631423010659d10586/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_379ba33579814b19d63bbbe69586c76229138375/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-24.2.1_7679e0d82fb3c3e4b33f8952fa33dadfe78fae56/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_cec2566a845e946f63ff5a3998d034854b544899/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_2dca817760fe48eead0946df758f2816d3112516/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6262bc4afece76362510d510d95802ce3eb10cbd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_850780d7ca2ac37bd250dba90bdba5ab68dc3c83/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.2.1_37812917fb81034b210a2d70fada628d1382fd47/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.2.1_3a6b56cd3a0d7ccd0bfb703e85405504a6852b78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_7f0fba514a38dfbef0b3560297349375cff58b53/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-24.2.1_d858d58a68e7daf8d05d13daaa081a4ae8821607/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_411b20ea556838040be14403c01d2fc76f40c555/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.2.1_65c6434764428430d1815299bb60eb8aee48666e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-24.2.1_5bafb35fe119b4ae72f113f5cc129ae4f76efd98/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/libs/backendless.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a3a49f3467786f92654fb4432c1b71505cba8c38">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/2/backendless_c6331d28c1d4f78f8db65e91928757be451e95ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.2.1_58c0be723590c259aeafc9b9f82a1048b775d8fb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0e647fd203a6f042b437f076f3cab13b0f917d31">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f06310eea3ad67432c068d5f24b209e2142ed87e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-24.2.1_71adb3aec965618095add80a3e8d9a428e07b591/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.2.1_33bd03e3af45d0300ddff9676cc1d977f5434535/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.2.1_e504c7ede3f941d67a76e78f8b818af2ae599a21/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/design/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.2.1_921d81af648b26c85afff1bcb26c5f99cbbfa62d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/Users/Jwes/AndroidStudioProjects/Rapid/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_c96675c508972d095fe10f7a0ce8c388f748fc8c/classes.dex" />
+    </item>
+
+</items>
